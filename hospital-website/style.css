@@ -1,0 +1,475 @@
+.body{
+    margin: auto;
+   width: fit-content;
+   max-width: 100%;
+    min-width: 30%;
+    height: fit-content;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-page {
+    margin: auto;
+    background-image: url(./src/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: fit-content;
+    height: 100%;
+    max-width: 100%;
+    min-width: 30%;
+}
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 1320px;
+    max-width: 100%;
+    min-width: 30%;
+    margin: auto;
+}
+
+.nav-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.nav-logo {
+    color: aliceblue;
+}
+
+.nav-list {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+}
+
+.nav-list a {
+    font-size: large;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav-button button {
+    background-color: #23a6f0;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+.main-section-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+}
+
+
+.right-section {
+    border-radius: 15px;
+    width: fit-content;
+    background-color: #fff;
+    margin: 50px 0px;
+}
+
+.container {
+    margin: 30px;
+}
+
+.form-entity {
+    margin: 10px 0px 10px 0px;
+}
+
+.form-entity>label {
+    font-size: 18px;
+}
+
+.form-entity>input {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    width: 200px;
+    border: solid #5b5a5a5b 2px;
+}
+
+.form-entity>select {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    width: 226px;
+    border: solid #5b5a5a5b 2px;
+}
+
+form>button {
+    margin: 20px 0px 10px 0px;
+    border-radius: 6px;
+    padding: 15px 40px 15px 40px;
+    width: 226px;
+    background-color: #3cb6ee;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+}
+
+section>h1 {
+    padding: 5px 7px;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-section>h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+
+}
+
+.left-section>div>p {
+    font-size: 20px;
+}
+
+.button-1 {
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color: #3cb6ee;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+}
+
+.button-2 {
+    padding: 10px 50px;
+    border-radius: 15px;
+    background-color: #3cb6ee;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+}
+
+.button-class {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 50px;
+    margin: auto;
+    max-width: 100%;
+    min-width: 30%;
+    width: 1320px;
+}
+
+.subsec {
+    text-align: center;
+    margin: 50px 20px;
+}
+
+.card-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+    width: 79%;
+    margin: auto;
+}
+
+.card {
+    width: 285px;
+    height: 320px;
+    border: #3cb6ee solid 1px;
+    border-radius: 15px;
+    margin: 10px 0px;
+    
+}
+
+.card-heading {
+    border-radius: 6% 6% 0% 0%;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #6dbdec;
+    color: #fff;
+}
+
+.user-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.card-content>ul {
+    text-decoration: none;
+    list-style: none;
+    width: 195px;
+}
+
+.card-content>a {
+    text-decoration: none;
+    font-size: 15px;
+    margin: 40px;
+}
+
+.user-card {
+    width: 250px;
+    height: 200px;
+    border: #5154552d solid 2px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.checked {
+    color: #F3CD03;
+}
+
+.star-raiting {
+    padding: 20px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.review {
+    padding: 0px 10px 0px 20px;
+    color: #8b8989d9;
+}
+
+.user-img {
+    width: 40px;
+    height: 40px;
+}
+.user {
+    margin: 0px 0px 0px 20px;
+    width: fit-content;
+}
+
+.third-section {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 45px;
+    margin: auto;
+    max-width: 100%;
+    min-width: 30%;
+    width: 1320px;
+}
+.forth-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 100%;
+    min-width: 30%;
+    width: 1320px;
+}
+.card-box1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+    width: 69%;
+    margin: auto;
+}
+.QA-card {
+    display: flex;
+    align-items: start;
+    height: fit-content;
+    margin: 10px;
+}
+.material-symbols-outlined{
+    color: #23a6f0; 
+}
+.text-card{
+    width: 210px;
+    height: 90px;
+}
+.text-card > h4,p{
+    margin: 0px 1px 5px 5px;
+}
+.price-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 100%;
+    min-width: 30%;
+    width: 1320px;
+    background-color: #FAFAFA;
+}
+
+.pricing-card{
+    border: #71cef8b3 solid 2px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 30px 0px;
+}
+.pricing-card:hover{
+    background-color:#252B42;
+    color: beige;
+    scale: 1.09 1;
+   margin-top: 0px;
+    transition:  ease 0.7s;
+}
+.inner-card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-card-body>p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.price {
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: #3cb6ee;
+}
+
+.price>h1 {
+    font-size: 40px;
+}
+
+.benifits {
+    width: 210px;
+    padding: 10px 0px;
+}
+
+.green {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.green>.material-symbols-outlined {
+    color:#2DC071;
+    
+}
+.green>p {
+    font-size: 14px;
+}
+.gray>p {
+    font-size: 14px;
+}
+
+.gray {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.gray>.material-symbols-outlined {
+    color:#BDBDBD;
+}
+
+.card-button {
+    border: solid 1px;
+    padding: 10px 60px;
+    background-color: #1e99d1;
+    color: aliceblue;
+    margin-bottom: 20px;
+    width: 230px;
+    border-radius: 5px;
+}
+.footer-box1 {
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px;
+    background-color: #252B42;
+    color: aliceblue;
+}
+
+.left-box>h1{
+    padding: 5px;
+    margin: 0;
+    font-size: 37px;
+}
+.email-box{
+    border: solid  1px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.email-box>input{
+    height: 46px;
+    width: 240px;
+    font-size: 20px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 0px 0px;
+}
+.email-box>button{
+    background-color: #10a2c3;
+    width: 114px;
+    height: 46px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 17px;
+    margin: 0px 0px;
+}
+.footer-box2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+    margin: 50px 0px;
+    padding: 20px 0px;
+}
+.footer-sub-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+}
+.social-img{
+    width: 20px;
+    height: 20px;
+   margin: 10px 5px;
+}
+.footer-sub-box-box{
+   
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-sub-box-box>ul>li{
+    list-style: none;
+    margin-top: 7px;
+}
+.footer-sub-box-box>div>h1{
+    margin: 1px 40px;
+    font-size: 25px;
+    width: 80%;
+}
+.end{
+    text-align: center;
+}
